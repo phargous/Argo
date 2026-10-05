@@ -1,0 +1,24 @@
+
+Downloading: 006_004_medmfc_uovo.nc
+Finished: 006_004_medmfc_uovo.nc
+
+Downloading: 006_004_medmfc_so.nc
+Finished: 006_004_medmfc_so.nc
+
+Downloading: 006_004_medmfc_thetao.nc
+Finished: 006_004_medmfc_thetao.nc
+
+Downloading: 006_004_medmfc_hflux.nc
+Finished: 006_004_medmfc_hflux.nc
+
+Downloading: 006_004_medmfc_mld.nc
+Finished: 006_004_medmfc_mld.nc
+
+Downloading: 006_004_medmfc_mflux.nc
+Finished: 006_004_medmfc_mflux.nc
+
+Downloading: 006_004_medmfc_ssh.nc
+Finished: 006_004_medmfc_ssh.nc
+
+Downloading: 006_004_medmfc_bathy.nc
+Finished: 006_004_medmfc_bathy.nc
