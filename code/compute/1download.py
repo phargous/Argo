@@ -18,9 +18,14 @@ from unittest.mock import patch
 OUTPUT_DIR = "../../data/"
 
 LON_MIN = -5.4
-LON_MAX = -1
+LON_MAX = -0.7
 LAT_MIN = 35
-LAT_MAX = 37
+LAT_MAX = 37.7
+# LON_MIN = 22.5
+# LON_MAX = 28
+# LAT_MIN = 33
+# LAT_MAX = 35.5
+
 
 DATE_START = "1993-01-01T00:00:00"
 DATE_END = "2026-08-31T23:59:59"
@@ -53,49 +58,49 @@ datasets = [
     {
         "dataset_id": "cmems_mod_med_phy-cur_my_4.2km_P1D-m",
         "variables": ["uo", "vo"],
-        "output_filename": "006_004_medmfc_uovo.nc",
+        "output_filename": "006_004_medmfc_uovo_alb.nc",
     },
 
     {
         "dataset_id": "cmems_mod_med_phy-sal_my_4.2km_P1D-m",
         "variables": ["so"],
-        "output_filename": "006_004_medmfc_so.nc",
+        "output_filename": "006_004_medmfc_so_alb.nc",
     },
 
     {
         "dataset_id": "cmems_mod_med_phy-temp_my_4.2km_P1D-m",
         "variables": ["thetao"],
-        "output_filename": "006_004_medmfc_thetao.nc",
+        "output_filename": "006_004_medmfc_thetao_alb.nc",
     },
 
     {
         "dataset_id": "cmems_mod_med_phy-hflux_my_4.2km_P1D-m",
         "variables": ["hfds", "hfls", "hfss", "rlds", "rsntds"],
-        "output_filename": "006_004_medmfc_hflux.nc",
+        "output_filename": "006_004_medmfc_hflux_alb.nc",
     },
 
     {
         "dataset_id": "cmems_mod_med_phy-mld_my_4.2km_P1D-m",
         "variables": ["mlotst"],
-        "output_filename": "006_004_medmfc_mld.nc",
+        "output_filename": "006_004_medmfc_mld_alb.nc",
     },
 
     {
         "dataset_id": "cmems_mod_med_phy-mflux_my_4.2km_P1D-m",
         "variables": ["tauuo", "tauvo"],
-        "output_filename": "006_004_medmfc_mflux.nc",
+        "output_filename": "006_004_medmfc_mflux_alb.nc",
     },
 
     {
         "dataset_id": "cmems_mod_med_phy-ssh_my_4.2km_P1D-m",
         "variables": ["zos"],
-        "output_filename": "006_004_medmfc_ssh.nc",
+        "output_filename": "006_004_medmfc_ssh_alb.nc",
     },
 
     {
         "dataset_id": "cmems_mod_med_phy_my_4.2km_static",
         "variables": ["deptho", "deptho_lev", "mask"],
-        "output_filename": "006_004_medmfc_bathy.nc",
+        "output_filename": "006_004_medmfc_bathy_alb.nc",
     },
 ]
 
