@@ -1,2 +1,5 @@
 data/
 results/
+.claude/
+docs/
+CLAUDE.md
